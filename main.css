@@ -14,5 +14,6 @@ html {
     font-weight: bolder;
 }
 .text {
-    padding-top:40px;
+    padding-top: 25px;
+    font-family: "IBM Plex Mono", monospace;
 }
