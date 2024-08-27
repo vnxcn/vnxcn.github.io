@@ -3,11 +3,13 @@ html {
     color: #909090;
 }
 .header {
+    display: inline;
     padding: 10px 0 0 10px;
     font-family: "IBM Plex Mono", monospace;
-    font-weight:lighter;
 }
 .hl {
+    display: inline;
     color:white;
-    font-weight:bolder;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bolder;
 }
