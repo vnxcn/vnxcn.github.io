@@ -1,0 +1,8 @@
+html {
+    background-color: #1c1c1c;
+    color: #909090;
+}
+.header {
+    padding: 10px 0 0 10px;
+    font-family: "IBM Plex Mono", monospace;
+}
