@@ -5,4 +5,9 @@ html {
 .header {
     padding: 10px 0 0 10px;
     font-family: "IBM Plex Mono", monospace;
+    font-weight:lighter;
+}
+.hl {
+    color:white;
+    font-weight:bolder;
 }
