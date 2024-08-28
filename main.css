@@ -1,3 +1,11 @@
 html {
     background-color:#2f2f2f
 }
+#page {
+    position: relative;
+}
+.text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
