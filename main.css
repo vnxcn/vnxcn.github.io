@@ -1,11 +1,7 @@
 html {
-    background-color:#2f2f2f
+    background-color:black;
 }
-#page {
-    position: relative;
-}
-.text {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.header {
+    padding-top:30px;
+    padding-left:30px;
 }
