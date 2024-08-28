@@ -12,6 +12,8 @@ body {
 }
 hr {
     border: 3px solid #111;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 a {
     color:#505050;
