@@ -5,3 +5,7 @@ html {
     padding-top:30px;
     padding-left:30px;
 }
+.header > img {
+    height:30%;
+    width:30%;
+}
