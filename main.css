@@ -1,11 +1,13 @@
 html {
     background-color:black;
 }
-.header {
-    padding-top:30px;
-    padding-left:30px;
+body {
+    padding-top:20px;
+    padding-left:20px;
 }
-.header > img {
-    height:2%;
-    width:2%;
+.text, .links {
+    color:#505050
+}
+hr {
+    border: 3px solid #111;
 }
