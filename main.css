@@ -1,23 +1,9 @@
+@font-face {
+    font-family: 'vga';
+    src: url('vga8x16.ttf')  format('truetype');
+}
 html {
     background-color:black;
-    font-family:'cascadia code', monospace;
-}
-body {
-    padding-top:20px;
-    padding-left:20px;
-    padding-right:20px;
-}
-.text, .links {
-    color:#505050
-}
-hr {
-    border: 3px solid #111;
-}
-a {
-    color:#505050;
-    text-decoration: none;
-}
-a:hover {
-    color:#909090;
-    text-decoration: underline;
+    color:#707070;
+    font-family:"vga";
 }
