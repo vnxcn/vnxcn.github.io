@@ -1,14 +1,23 @@
 html {
     background-color:#1e1d1d;
     color:#d2b3a4;
-    font-family:sans-serif
+    font-family:"Noto Sans"
 }
 body {
     padding-top:0px
 }
+.hbar {
+    background-color:#363434
+}
 a {
-    color:#d2b3a4
+    color:#d2b3a4;
+    text-decoration:none;
 }
 a:visited {
     color:#d2b3a4
+    text-decoration:none;
+}
+a:hover {
+    color:#ecc9b8;
+    text-decoration:underline
 }
