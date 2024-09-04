@@ -1,6 +1,10 @@
 html {
     background-color:#1e1d1d;
-    color:#d2b3a4
+    color:#d2b3a4;
+    font-family:sans-serif
+}
+body {
+    padding-top:0px
 }
 a {
     color:#d2b3a4
