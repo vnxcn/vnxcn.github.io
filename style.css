@@ -6,6 +6,9 @@ html {
 body {
     margin:0;
 }
+.page {
+    padding-left:10px;
+}
 .hbar {
     background-color:#363434;
 }
