@@ -16,8 +16,11 @@ body {
     padding-bottom:5px;
 }
 hr {
-    border: 5px solid #86736a;
+    border: 3px solid #292727;
+    margin-left:15px;
+    margin-right:15px;
 }
+/* ============================ */
 a {
     color:#d2b3a4;
     text-decoration:none;
