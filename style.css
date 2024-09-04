@@ -3,6 +3,9 @@ html {
     color:#d2b3a4;
     font-family:"Noto Sans"
 }
+li::marker {
+    content:'▪  ';
+}
 body {
     margin:0;
 }
@@ -21,7 +24,7 @@ body {
 hr {
     border: 3px solid #292727;
     margin-left:15px;
-    margin-right:15px;
+    margin-right:25px;
 }
 /* ============================ */
 a {
