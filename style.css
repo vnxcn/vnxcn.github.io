@@ -4,10 +4,16 @@ html {
     font-family:"Noto Sans"
 }
 body {
-    padding-top:0px
+    margin:0;
 }
 .hbar {
-    background-color:#363434
+    background-color:#363434;
+}
+.hbar h3 {
+    margin:0;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 a {
     color:#d2b3a4;
@@ -19,5 +25,5 @@ a:visited {
 }
 a:hover {
     color:#ecc9b8;
-    text-decoration:underline
+    text-decoration:underline;
 }
