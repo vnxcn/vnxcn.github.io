@@ -15,6 +15,9 @@ body {
     padding-top:5px;
     padding-bottom:5px;
 }
+hr {
+    border: 5px solid #86736a;
+}
 a {
     color:#d2b3a4;
     text-decoration:none;
