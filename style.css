@@ -22,3 +22,16 @@ html {
     display:flex;
     border-radius:100%
 }
+a {
+    color:#e5e5e5;
+    text-decoration:none
+}
+a:visited {
+    color:#e5e5e5;
+    text-decoration:none
+}
+a:hover {
+    color:#ffffff;
+    text-decoration:underline;
+    text-decoration-thickness:1px
+}
