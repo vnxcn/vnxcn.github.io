@@ -1,21 +1,24 @@
 html {
-    background-color:#101010;
+    background-color:#202020;
     color:#ffffff;
     font-family:"Work Sans"
 }
-.main {
+#main {
     padding-top:50px;
     padding-left:30px;
-    padding-right:30px
+    padding-right:30px;
+    text-align:center
 }
 .img-div {
-    margin-top:8px;
-    margin-bottom:8px;
-    border:3px solid #fff
+    margin-top:40px;
+    margin-bottom:40px;
+    border:2px solid #fff;
+    width:370px
 }
 .pfp {
     height:200;
     width:200;
     margin:0 auto;
+    display:flex;
     border-radius:100%
 }
