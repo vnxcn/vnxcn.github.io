@@ -23,15 +23,15 @@ html {
     border-radius:100%
 }
 a {
-    color:#e5e5e5;
+    color:#9da3b6;
     text-decoration:none
 }
 a:visited {
-    color:#e5e5e5;
+    color:#9da3b6;
     text-decoration:none
 }
 a:hover {
-    color:#ffffff;
+    color:#b9c0d6;
     text-decoration:underline;
     text-decoration-thickness:1px
 }
