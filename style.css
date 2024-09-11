@@ -19,7 +19,7 @@ a:hover {
     display:inline;
 }
 hr {
-    border:dotted 1px #494949;
+    border:dashed 1px #494949;
 }
 code {
     background-color:#202020;
