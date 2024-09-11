@@ -1,12 +1,14 @@
 html {
-    background-color:#2d2e2f;
-    color:#e6e6e6
+    background-color:#242325;
+    color:#d7defa;
 }
-.container {
-    background-color:#414242;
-    border:2px solid #c6c7c7;
-    border-radius:20%;
+body {
+    margin:0;
 }
-.container hr {
-    border:solid 3px #5b5c5c
+#bar {
+    display:inline;
+    background-color:green;
+}
+#bar h3 {
+    margin:0;
 }
