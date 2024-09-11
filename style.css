@@ -19,5 +19,16 @@ html {
     display:inline;
 }
 hr {
-    border:dashed 1px #393939;
+<<<<<<< HEAD
+    border:dotted 1px #494949;
+=======
+    border:dashed 1px #494949;
+>>>>>>> 32d52ebcd6ef5032259a7388fcbc8d5e485a6377
+}
+code {
+    background-color:#393939;
+    border:solid 2px #555555;
+}
+mark {
+    background-color:#393939;
 }
