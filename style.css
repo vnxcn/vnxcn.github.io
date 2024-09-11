@@ -1,31 +1,19 @@
 html {
-    background-color:#242325;
-    color:#d7defa;
+    background-color:#222222;
+    color:#e6e6e6;
 }
-body {
-    margin:0;
+a {
+    color:#ccd6e6;
+    text-decoration:none;
 }
-#bar {
-    background-color:#2d2c2e;
+a:visited {
+    color:#ccd6e6;
+    text-decoration:none;
 }
-#bar h3 {
-    margin:0;
+a:hover {
+    color:#ccd6e6;
+    text-decoration:underline;
 }
-#bar * {
-    padding:5px 5px 5px 5px
-}
-#bar a {
-    color:#b2bce2;
-    font-weight: bolder;
-    text-decoration: none;
-}
-#bar a:visited {
-    color:#b2bce2;
-    font-weight: bolder;
-    text-decoration: none;
-}
-#bar a:hover {
-    color:#b2bce2;
-    font-weight: bolder;
-    text-decoration: underline;
+hr {
+    border:dotted 1px #383838
 }
