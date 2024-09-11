@@ -6,9 +6,11 @@ body {
     margin:0;
 }
 #bar {
-    display:inline;
-    background-color:green;
+    background-color:#2d2c2e;
 }
 #bar h3 {
     margin:0;
+}
+#bar * {
+    padding:5px 5px 5px 5px
 }
