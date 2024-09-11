@@ -14,3 +14,18 @@ body {
 #bar * {
     padding:5px 5px 5px 5px
 }
+#bar a {
+    color:#b2bce2;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#bar a:visited {
+    color:#b2bce2;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#bar a:hover {
+    color:#b2bce2;
+    font-weight: bolder;
+    text-decoration: underline;
+}
