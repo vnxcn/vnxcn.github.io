@@ -3,15 +3,15 @@ html {
     color:#e6e6e6;
     font-family:"Lato";
 }
-.bar a {
+a {
     color:#aec2e7;
     text-decoration:none;
 }
-.bar a:visited {
+a:visited {
     color:#aec2e7;
     text-decoration:none;
 }
-.bar a:hover {
+a:hover {
     color:#aec2e7;
     text-decoration:underline;
 }
