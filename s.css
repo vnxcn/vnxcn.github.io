@@ -10,8 +10,8 @@ body {
 a,
 a:visited {
     color:#ecc;
-    text-decoration:underline;
-    text-decoration-thickness:2px;
+    border-bottom:2px solid #ecc;
+    margin:3px;
 }
 a:hover {
     background-color:#ecc;
@@ -20,5 +20,5 @@ a:hover {
 }
 hr {
     border:2px solid #ecc;
-    margin:5px 46vw 5px 46vw;
+    margin:7px 46vw 7px 46vw;
 }
