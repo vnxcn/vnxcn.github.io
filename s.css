@@ -1,6 +1,6 @@
 html {
     background-color:#111;
-    color:#fee;
+    color:#ecc;
     font-family:Arial, Helvetica, sans-serif;
 }
 body {
@@ -9,11 +9,11 @@ body {
 }
 a,
 a:visited {
-    color:#ffe055;
+    color:#ecc;
     text-decoration:underline;
-    text-decoration-thickness:3px;
+    text-decoration-thickness:2px;
 }
 hr {
-    border:2px solid #fee;
-    margin:5px 0px 5px 0px;
+    border:2px solid #ecc;
+    margin:5px 46vw 5px 46vw;
 }
