@@ -13,6 +13,8 @@ a:visited {
     border-bottom:3px solid #ecc;
     text-decoration:none;
 }
+::selection,
+::-moz-selection,
 a:hover {
     background-color:#ecc;
     color:#111;
