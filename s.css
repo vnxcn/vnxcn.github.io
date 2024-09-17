@@ -10,7 +10,7 @@ body {
 a,
 a:visited {
     color:#ecc;
-    border-bottom:2px solid #ecc;
+    border-bottom:3px solid #ecc;
     text-decoration:none;
 }
 a:hover {
