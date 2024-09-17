@@ -1,0 +1,19 @@
+html {
+    background-color:#111;
+    color:#fee;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    text-align:center;
+    padding-top:120px;
+}
+a,
+a:visited {
+    color:#ffe055;
+    text-decoration:underline;
+    text-decoration-thickness:3px;
+}
+hr {
+    border:2px solid #fee;
+    margin:5px 0px 5px 0px;
+}
