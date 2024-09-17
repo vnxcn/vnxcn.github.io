@@ -13,6 +13,10 @@ a:visited {
     text-decoration:underline;
     text-decoration-thickness:2px;
 }
+a:hover {
+    background-color:#ecc;
+    text-decoration:none;
+}
 hr {
     border:2px solid #ecc;
     margin:5px 46vw 5px 46vw;
