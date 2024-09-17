@@ -15,6 +15,7 @@ a:visited {
 }
 a:hover {
     background-color:#ecc;
+    color:#111;
     text-decoration:none;
 }
 hr {
