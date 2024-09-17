@@ -11,7 +11,7 @@ a,
 a:visited {
     color:#ecc;
     border-bottom:2px solid #ecc;
-    margin:3px;
+    text-decoration:none;
 }
 a:hover {
     background-color:#ecc;
