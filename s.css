@@ -12,6 +12,7 @@ a:visited {
     color:#ecc;
     border-bottom:3px solid #ecc;
     text-decoration:none;
+    padding-bottom:1px;
 }
 ::selection,
 ::-moz-selection,
