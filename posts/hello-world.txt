@@ -1,0 +1,27 @@
+
+hi, welcome to my first text-based blog post.
+i've decided against html to conserve space and
+because i do not have tools like jekyll to
+assist me (i'm generally lazy.)
+-----
++why?
+i want to. if you're not interested in listening
+to ramblings of a nerd on the internet, you're
+welcome to leave the page.
+but if generally, because i'm forgetful and can
+refer to these in the future, like a time capsule.
+- well why not use [...]?
+because as i stated, i'm too lazy to set up any
+static site builders, so i'll do just as fine
+with a keyboard and spare time.
+-----
++when?
+whenever. these will not in any way be in a timely
+manner. i will write down stuff when i want/need to,
+or whenever a lightbulb comically appears above my head.
+(around 2-3 weeks per post usually.)
+---
++how?
+with a keyboard and a text editor. what's nice is
+i can fire up nvim, write down a quick post and push
+the post. no hassle, no building, no bloat. just text.
