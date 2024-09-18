@@ -3,3 +3,4 @@ a, a:visited {color:#518b62;text-decoration:none;border-bottom:1px dotted #60606
 a:hover {color:#7acd93}
 .main {width:600px;position:absolute;left:25%;top:15%}
 hr {border:1px solid #eee;width:300px;margin-left:0}
+code {color:#518b62}
