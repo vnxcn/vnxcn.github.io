@@ -46,8 +46,12 @@ bells&whistles: possibly overwhelming for new users. even
 when i installed neovim for the first time, it felt like
 i just downloaded an ide with a trillion features. kind of
 felt like a vscode first start, though maybe it's just me..
+stereotypes: a lot of so-called 'skids' use stuff like arch
+linux, hyprland, and neovim, which makes its reputation
+slightly worse (which is one of the reasons i've not used neovim
+up until now!)
 ---
-in total, i've summed up 3 reasons why you might like/dislike
+in total, i've summed up 4 reasons why you might like/dislike
 neovim. i hope you enjoyed this read, and if you have an opinion
 or concern you want to share, refer to my homepage's contact
 section.
