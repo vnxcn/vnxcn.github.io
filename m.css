@@ -1,6 +1,6 @@
 body {background-color:#111111;color:#eeeeee;font-family:sans-serif;font-size:small}
 a, a:visited {color:#518b62;text-decoration:none;border-bottom:1px dotted #606060;padding-bottom:1px}
-h2,h3::before {content:"# ";color:#7acd93}
+h2::before,h3::before {content:"# ";}
 a:hover {color:#7acd93}
 .main {width:300px;position:absolute;left:25%;top:15%}
 hr {border:1px solid #eee}
