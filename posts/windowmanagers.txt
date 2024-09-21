@@ -1,0 +1,95 @@
+
+have you ever sat down in your room and
+just thought: "hmm, what window manager
+should i use today"? well, probably not,
+but here's a post describing the types of
+window managers and how to pick one for your
+needs.
+-----
++part 1: input types
+keyboard-driven: most tiling window managers
+today are. for example, dwm, bspwm, i3 and i
+could go on. these are the most popular
+because usually you have to switch between
+your mouse and keyboard, which is not very
+comfortable. besides, keybindings are
+(arguably) way more versatile than right-click
+menus.
+these are popular amongst developers (because
+you can do a lot of stuff quickly) and keyboard
+fans.
+mouse-driven: well to some extent. usually a
+mouse driven approach also includes a floating
+window manager (of the box variety, cwm, fvwm...)
+and a right-click menu, because you can't do
+much in a floating window manager without one
+(unless you add keybinds but that's cheating..)
+mouse driven setups are popular amongst slow typers
+(myself included) and people who like the sound of a
+mouse clicking ;)
+-----
++part 2: window managing types
+tiling: windows are arranged in a pattern, usually
+a grid. some popular examples include:
+i3; dwm; xmonad, herbstluftwm, and bspwm
+tiling window managers are the more popular pick
+because you can maximize the amount of windows on
+the screen (thus enhancing multitasking abilities.)
+there are 2 types of tiling window managers: manual
+and automatic. manual means it will not do anything
+to the windows unless you tell it to, and automatic
+helps you manage the windows for you. i personally
+prefer manual tiling, but it's up to you to choose
+a mode.
+floating: windows are placed somewhere on the screen
+and the user is given the option to drag them anywhere.
+they do not make a grid, but instead place themselves
+somewhere on the desktop, usually under the pointer,
+for easy reach. popular examples of floating window
+managers include:
+*box; (c)twm; fvwm; and most desktop environments.
+floating window managers are objectively easier to use
+because a) you don't have to remember keybinds to
+arrange/exec stuff, and b) if you just moved from
+windows or mac, this will be easier to get used to.
+i use a floating window manager too, but i'll probably
+delay that for another post.
+floating window managers do not have variations, but
+they have more examples.
+hybrid: is all of the above, they can be both tiling
+and floating at the user's request. a very nice hybrid
+window manager is i3, which does allow the user to make
+a window float. another good example is ratpoison, but
+it is very hard to get used to. i tried to use it for
+a week and had to quit on day 3 :/
+-----
++part 3: BONUS!
+multiple window managers exist online that aren't much
+used nowadays, like the classic twm, or the abandoned
+miwm (somehow still in the debian repos as of sep 2024.)
+these window managers are very boring by themselves, but
+tinkering with the config enough does help, a lot!
+and here are some golden utils for people who want to build
+a nice workflow:
+jgmenu - easily scriptable menu, written in java, AFAIK.
+useful for window managers that don't have a right click menu
+builtin or those who want a custom one.
+lemonbar - also a very nifty tool. as the name states, it's a
+bar, except it isn't any generic bar. it reads input from stdin
+and outputs it in text format, so you have to write a shell script
+to make it look nice, which makes it my favorite bar because i love
+bash.
+vdesk - for window managers that don't support workspaces OOTB.
+i use this tool too, and it works perfectly.
+unclutter - just hides your cursor after a period of time. very nice
+if you don't want any distractions during work.
+-----
+so, to sum this up: what window manager do i use? there's no definite
+answer. you might be a dev, but prefer kde or openbox as your environment
+of choice. you might be a regular user and prefer i3 for its tiling.
+it doesn't matter who you are, use whatever you want, you are not
+required to be someone in order to use a window manager. but if you had
+issues with picking a window manager that you want to use, i hope this
+writeup helped! as always, if you have an opinion or concern you wish
+to share with me, the contact area on the homepage might help you.
+and that's it! see ya' later.
