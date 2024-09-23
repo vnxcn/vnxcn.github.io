@@ -1,0 +1,102 @@
+
+old window managers are often overlooked, which is
+a real shame. most of them might not look appealing out
+of the box, which is most likely the reason you've never
+tried using them. today i'll talk about my experiences with
+twm and evilwm, which i've used for a bit now and admittedly, they
+have suited my needs more than any other window manager i've tried.
+-----
++twm
+quoting wikipedia, tab window manager is a window manager developed
+for x11. being started in 1987 by tom lastrange, (as a replacement
+for uwm) it has been the standard window manager for x11, since vR4.
+the name was originally tom's window manager.
+twm is a floating window manager which features stuff that most floating
+window managers have: a titlebar, border and some titlebar buttons. a very
+interesting feature that twm has is the icon manager. it's a list of windows
+running right now, which is something you wouldn't find in a window manager nowadays.
+it's very nice if you want to know what windows you have iconified, for example.
+twm has a very popular fork named ctwm (for claude's tab window manager). it supports
+workspaces, 3d window decorations and much more.
+twm does not come with a config file on most systems, as such, i had to read through
+the manpages and steal some code from other dotfiles.
+twm has a lot of tricks up its sleeve, like the option to completely remove the window decor,
+change the fonts, the icons on the titlebar, a very extensive keybinding system and a lot more.
+twm's config file is usually formatted like this:
+======
+SomeOptions
+
+Color {
+    SomeColorOption "SomeColorValue"
+}
+SomeMouseButton = : SomePlace (usually any) : SomeFunction
+menu "SomeMenu" {
+    SomeTitle f.title
+    SomeLabel f.exec SomeProgram
+    SomeLabel2 f.restart
+    SomeLabel3 f.quit
+}
+======
+this might look a bit confusing at first, but the more you read it, the more understandable
+it becomes.
+i've found a few nice places to look at .twmrcs, like alpraz's dotfiles and diws1's dotfiles
+(the second has a few showcase videos.)
+a nice program to have installed alongside twm is vdesk, which emulates workspaces for window
+managers that don't have them. if you want to actually have the proper workspace experience,
+place the following lines at the start of your config:
+======
+IconifyByUnmapping
+NoIconManagers
+======
+the following first remove the visual icons from the desktop (vdesk iconifies windows to emulate
+the workspace feel) and the second doesn't allow drawing icon managers (again, because it will show
+the iconified windows, which ruins the feel).
+now let's take a look at a more feature-full window manager.
+-----
++evilwm
+evilwm is a minimalist window manager released circa 1996. it's a very simple floating windoww manager
+that has been forked a couple times, the most notable example being openbsd's calm window manager.
+evilwm is minimalist in the way that it omits most things that you usually don't need from a window manager.
+if you want a titlebar, icons, shadows, rounding, etc, this wm is not for you. if that's not your case, let's carry on.
+icewm is controlled either through the flags given to it at startup or through a file called .evilwmrc,
+where you give it the same flags but without the dashes. here's an example of how this works:
+
+======
+evilwm -bg "black" -fg "red" -fc "yellow"
+======
+
+will have the same effect as this .evilwmrc:
+
+======
+bg black
+fg red
+fc yellow
+======
+
+you get the point? good. the manpages are too, a great source of knowledge. my .evilwmrc looks like this (annotated
+for your viewing pleasure):
+
+======
+term urxvt      # default terminal program to spawn
+fn terminus     # for some reason this is broken right now
+fg #c2cc66      # focused border color
+fc #bc8c4d      # fixed border color (fixed = sticky, shows up on all workspaces)
+bg #384137      # unfocused border color
+bw 6            # border width
+snap 5          # distance from which windows will snap to or from a surface
+mask1 alt       # default keybinding mask, i'm used to it
+numvdesks 5     # number of workspaces that i can switch to
+
+bind mask1+x=delete     # bind for closing windows
+bind mask1+t=spawn      # remember that term thing we defined? this keybind will spawn that
+bind mask1+f=resize,toggle+v+h      # fully maximizes a window (not respecting borders)
+bind mask1+l=fix,toggle             # had to bind this to l instead. makes a window fixed (sticky)
+======
+
+so, to conclude evilwm: it's very small, very simple and very easy. i set it up in ~10 minutes, not
+including creating the actual colorscheme/finding a wallpaper to match. evilwm is very nice if you think
+twm is too much, and vice versa.
+-----
+i hope this helped you find some window managers that aren't too resource heavy, or maybe you learnt something from this
+today! as always, if you have an opinion or concern you want to share, open the contact area on the homepage!
+and that's it! see ya' later.
