@@ -1,2 +1,2 @@
 body {color:#222;background-color:#eee}
-abbr,a,a:any-link {color:#222;text-decoration:dotted}
+a:any-link {color:#222;text-decoration:underline dotted}
