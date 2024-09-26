@@ -1,3 +1,2 @@
-body {font-family:sans-serif;margin:30px 0 0 30px;background:#eee;color:#444;font-size:small}
-a,a:visited {color:#444;text-decoration:none;border-bottom:solid 1px #444; padding-bottom:0px}
-a:hover {border-color:transparent}
+body {color:#222;background-color:#eee}
+abbr,a,a:any-link {color:#222;text-decoration:dotted}
