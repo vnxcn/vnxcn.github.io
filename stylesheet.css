@@ -1,4 +1,4 @@
-body {color:#222;background-color:#eee;margin:50px 0 0 25px;width:400px}
+body {color:#222;background-color:#eee;margin:50px 0 0 25px;width:400px;line-height:1.4}
 hr {border:1px dashed #222}
 h2,h3 {font-weight:normal}
 a:any-link {color:#222;text-decoration:underline dotted}
