@@ -2,6 +2,6 @@
 body {color:var(--fg);background-color:var(--bg);margin:50px 0 0 25px;width:400px;line-height:1.4}
 hr {border:1px dashed var(--fg)}
 h2,h3 {font-weight:normal}
-a:any-link {color:var(--fg);text-decoration:none;font-weight:bold}
+a:any-link {color:var(--acc1);text-decoration:none}
 a:hover {text-decoration:underline !important}
 ul::marker {content:none}
