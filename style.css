@@ -4,7 +4,7 @@
     --acc1: #966f6fff;
     --acc2: #5c4040ff;
     --acc3: #1c1111ff;
-    --dsat: #696969ff;
+    --dsat: #505050;
 }
 body {
     background-color:var(--bg);
