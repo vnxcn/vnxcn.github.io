@@ -1,15 +1,3 @@
-:root {
-    --bg: #060606;
-    --fg: #fefefeff;
-    --link: #8fdedeff;
-}
-body {
-    background-color:var(--bg);
-    color:var(--fg);
-    font-family:sans-serif;
-    margin:3em
-}
-a:any-link {
-    color:var(--link);
-    text-decoration:none
-}
+body {font-family:monospace;margin:3em}
+a:any-link {color:#ffa861;text-decoration:none}
+hr {border:1px dotted #ddd;width:7em}
