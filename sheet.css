@@ -1,0 +1,14 @@
+:root {
+    --bg: #060606;
+    --fg: #fefefeff;
+    --link: #8fdedeff;
+}
+body {
+    background-color:var(--bg);
+    color:var(--fg);
+    margin:13
+}
+a:any-link {
+    color:var(--link);
+    text-decoration:none
+}
