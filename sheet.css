@@ -6,7 +6,8 @@
 body {
     background-color:var(--bg);
     color:var(--fg);
-    margin:13
+    font-family:sans-serif;
+    margin:3em
 }
 a:any-link {
     color:var(--link);
