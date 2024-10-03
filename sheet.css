@@ -1,3 +1,4 @@
 body {font-family:monospace;margin:3em}
 a:any-link {color:#ffa861;text-decoration:none}
-hr {border:1px dotted #ddd;width:7em}
+hr {border:1px solid #ddd;width:160px;margin-left:0}
+i {color:gray}
