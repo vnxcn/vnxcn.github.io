@@ -1,4 +1,4 @@
-body {font-family:monospace;margin:3em;width:220px}
-a:any-link {color:#ffa861;text-decoration:none}
+body {font-family:monospace;margin:3em;width:220px} /* set width to 900px for blogposts */
+a:any-link {color:black;text-decoration:underline}
 hr {border:1px solid #ddd;width:160px;margin-left:0}
 i {color:gray}
