@@ -12,6 +12,3 @@ a:any-link {
 header * {
     display:inline
 }
-li::marker {
-    content:'▪ '
-}
