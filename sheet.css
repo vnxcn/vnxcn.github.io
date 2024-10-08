@@ -9,3 +9,6 @@ a:any-link {
     text-decoration:none;
     font-weight:bold
 }
+header {
+    display:inline
+}
