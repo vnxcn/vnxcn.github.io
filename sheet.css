@@ -9,6 +9,9 @@ a:any-link {
     text-decoration:none;
     font-weight:bold
 }
-header {
+header * {
     display:inline
+}
+li::marker {
+    content:'▪ '
 }
