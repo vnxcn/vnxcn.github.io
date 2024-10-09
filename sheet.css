@@ -13,7 +13,7 @@ header * {
     display:inline
 }
 header p * {
-    background-color: #f0f0f0;
+    background-color:#f0f0f0;
     padding:1px;
     border-radius:1px
 }
