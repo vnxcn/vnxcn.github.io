@@ -17,3 +17,7 @@ header p * {
     padding:1px;
     border-radius:1px
 }
+hr {
+    border:0;
+    border-top:1px solid #222
+}
