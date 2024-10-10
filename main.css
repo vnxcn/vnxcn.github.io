@@ -4,6 +4,9 @@ body {
     margin:50px;
     width:500px;
     font-family:'Liberation Mono';
-    background-color:#eee;
-    color:#222
+    background-color:#604634;
+    color:#ffd7a8
+}
+.imgs {
+    align-content:center
 }
