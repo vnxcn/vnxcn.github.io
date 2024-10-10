@@ -11,9 +11,15 @@
     font-style: normal;
 }
 body {
-    background-color:#ccc;
+    background-color:#eee;
     font-family:'Tamzen'
 }
 a:any-link {
-    color:black
+    color:#4ad2e3;
+    text-decoration:none
+}
+.main {
+    background-color:white;
+    display:flex;
+    align-content:center
 }
