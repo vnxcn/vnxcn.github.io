@@ -1,6 +1,2 @@
-body {color:#333;margin:7em}
-.main {
-    align-content:center;
-    display:flex;
-    justify-content:center
-}
+body {color:#333;margin:7em;display:flex;align-content:center}
+a:any-link {font-weight:bold;color:#555;text-decoration:none}
