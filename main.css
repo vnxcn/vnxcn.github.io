@@ -1,0 +1,11 @@
+body {
+    font-family:monospace;
+    background: color #1b1615;
+    color:#cd9a3c;
+    margin-top:3em;
+    text-align:center
+}
+.main {text-align:left}
+a:any-link {
+    color: #cd9a3c
+}
