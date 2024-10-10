@@ -11,8 +11,10 @@
     font-style: normal;
 }
 body {
-    background-color:#222;
-    font-family:'Tamzen'
+    background-color:#111;
+    color:#eee;
+    font-family:'Tamzen';
+    margin:6em
 }
 a:any-link {
     color:#4ad2e3;
