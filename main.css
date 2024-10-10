@@ -12,3 +12,7 @@ a:any-link {
     color:cadetblue;
     text-decoration: none
 }
+a:hover {
+    background-color:cadetblue;
+    color:white
+}
