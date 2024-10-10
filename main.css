@@ -9,5 +9,6 @@ hr {
     border-top:1px solid cadetblue
 }
 a:any-link {
-    color:cadetblue
+    color:cadetblue;
+    text-decoration: none
 }
