@@ -1,3 +1,9 @@
 body {
     color:#222
 }
+.circle {
+    width:35;
+    height:35;
+    background-color:#222;
+    border-radius:50%
+}
