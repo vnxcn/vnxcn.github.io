@@ -4,7 +4,7 @@ body {
     font-family:monospace
 }
 a:any-link {
-    color:#222;
+    color:orangered;
     font-weight:bold;
-    text-decoration:underline dotted gray
+    text-decoration:none
 }
