@@ -1,0 +1,10 @@
+body {
+    color:#222;
+    margin:4em;
+    font-family:monospace
+}
+a:any-link {
+    color:#222;
+    font-weight:bold;
+    text-decoration:1px dotted gray
+}
