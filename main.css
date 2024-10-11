@@ -5,6 +5,5 @@ body {
 }
 a:any-link {
     color:orangered;
-    font-weight:bold;
     text-decoration:none
 }
