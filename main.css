@@ -1,9 +1,6 @@
 body {
-    color:#222;
-    margin:4em;
+    color:#333;
+    width:400px;
+    margin:2em;
     font-family:monospace
-}
-a:any-link {
-    color:orangered;
-    text-decoration:none
 }
