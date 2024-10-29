@@ -7,11 +7,10 @@
         code {background-color:#131313;padding:7px}
         .main {display:grid;grid-template-rows:55px 55px;grid-template-columns:120px 120px;}
         .main button {max-width:120px;padding:4px;margin:10px;font-family:Helvetica,monospace;background-color:#202020;color:white;border:0;}
-        .main button:hover {background-color:#242424;}
-        .main .button-yt:hover {background-color:#fa3e34;color:black;}
-        .main .button-gh:hover {background-color:#34fa6c;color:black;}
-        .main .button-rd:hover {background-color:#fa7634;color:black;}
-        .main .button-pm:hover {background-color:#6c4df7;color:black;}
+        .button-yt:hover {background-color:#fa3e34;color:black;}
+        .button-gh:hover {background-color:#34fa6c;color:black;}
+        .button-rd:hover {background-color:#fa7634;color:black;}
+        .button-pm:hover {background-color:#6c4df7;color:black;}
         input#find {background-color:#222;border:0;height:30px;width:220px;margin-bottom:10px;margin-left:10px;outline:none;color:white;padding:15px 7px 15px 7px;font-size:large;}
         footer {font-size:smaller;margin-top:1em;}
         input#find::placeholder {color:#686868}
@@ -24,10 +23,10 @@
 	<input type="text" id="find" name="q" autofocus="" placeholder="Search:">
 </form>
   <div class="main">
-    <form action="https://youtube.com" method="POST"><button class="button-yt">YouTube</button></form>
-    <form action="https://github.com" method="POST"><button class="button-gh">GitHub</button></form>
-    <form action="https://reddit.com" method="POST"><button class="button-rd">Reddit</button></form>
-    <form action="https://mail.proton.me" method="POST"><button class="button-pm">Inbox</button></form>
+    <a href="https://youtube.com" style="all:inherit;"><button class="button-yt">YouTube</button></a>
+    <a href="https://github.com" style="all:inherit;"><button class="button-gh">GitHub</button></a>
+    <a href="https://reddit.com" style="all:inherit;"><button class="button-rd">Reddit</button></a>
+    <a href="https://mail.proton.me" style="all:inherit;"><button class="button-pm">Inbox</button></a>
   </div>
   <footer>
     <p>Search bar made by <a href="https://github.com/pyratebeard">pyratebeard</a>.</p>
