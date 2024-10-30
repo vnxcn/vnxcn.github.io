@@ -16,24 +16,18 @@
     <p>Recently I've made the decision of moving away from Dunst to <a href="https://github.com/dudik/herbe">herbe</a>.
     It's a smaller (~200 loc) notification tool that doesn't require dbus and is very easily scriptable.
     A GIF preview is available on the repository, if you want to see its simplicity and functionality yourself.</p>
-    <br>
     <p>It's configured via a config.h file at make (suckless style). You don't need to run any daemons since
     herbe spawns a new client for every notification.</p>
-    <br>
     <p>It has its limitations, the biggest one being it can only display one notification at a time. However, that doesn't
     take away from its usability and minimalism.</p>
-    <br>
     <p>Herbe is also very easy to patch and write patches for because of its small codebase, but I didn't patch mine so I don't
     have anything to show off here.</p>
-    <br>
     <p>What I did want to share with you is some ideas you could use if you want to customize herbe yourself:</p>
-    <br>
     <ul>
         <li>A makeshift bar that displays system info like battery life and the current time</li>
         <li>Paired with a cronjob and a file, a to-do list and with the dynamic patch, also refresh the todo list when you edit the file</li>
         <li>A context menu, for example one that asks you whether you want to poweroff or restart</li>
     </ul>
-    <br>
     <p>... and more. Overall, I think herbe is a great tool, and even though it doesn't have all of the functionality that dunst has,
     it's still very neat for such a small project.</p>
 </body>
