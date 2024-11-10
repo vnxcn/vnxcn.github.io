@@ -1,18 +1,21 @@
-https://9front.org 9front
-https://cat-v.org cat-v
-https://r-36.net r-36
-https://2f30.org /0
-https://suckless.org suckless
-https://z3bra.org z3bra
-https://hack.org hackdotorg
-https://0x0.st oxo
-https://ix.io ixio
-https://sr.ht sourcehut
-https://die.net diedotnet
-https://axsl.xyz ansel
-https://pyratebeard.net pyratebeard
-https://atl.tools atldottools
-https://wttr.in wttr
-https://07f.de 07f
-https://3tnl.dev 3ternal
-https://uses.tech uses
+An unformatted list of resources I compiled.
+These may or may not be interesting to you, but I've marked a couple I find cool with an *!
+====================================
+[*] https://9front.org
+[*] https://cat-v.org
+https://r-36.net
+https://2f30.org
+[*] https://suckless.org
+https://z3bra.org
+https://hack.org
+[*] https://0x0.st
+https://ix.io
+https://sr.ht
+[*] https://die.net
+[*] https://axsl.xyz
+https://pyratebeard.net
+https://atl.tools
+https://wttr.in
+https://07f.de
+https://3tnl.dev
+[*] https://uses.tech
