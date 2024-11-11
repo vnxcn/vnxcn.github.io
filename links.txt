@@ -1,21 +1,20 @@
-An unformatted list of resources I compiled.
-These may or may not be interesting to you, but I've marked a couple I find cool with an *!
+A half-formatted list of resources I compiled.
 ====================================
-[*] https://9front.org
-[*] https://cat-v.org
+https://9front.org
+https://cat-v.org
 https://r-36.net
 https://2f30.org
-[*] https://suckless.org
+https://suckless.org
 https://z3bra.org
 https://hack.org
-[*] https://0x0.st
+https://0x0.st
 https://ix.io
 https://sr.ht
-[*] https://die.net
-[*] https://axsl.xyz
+https://die.net
+https://axsl.xyz
 https://pyratebeard.net
 https://atl.tools
 https://wttr.in
 https://07f.de
 https://3tnl.dev
-[*] https://uses.tech
+https://uses.tech
