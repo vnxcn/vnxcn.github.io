@@ -1,8 +1,18 @@
 <html>
 <head>
+<style>
+@keyframes kitty {
+  from {transform:scale(1,1)}
+  to {transform:scale(0.8,0.8)}
+}
+body {background-color:black}
+.cat {animation: 0.2s infinite alternate kitty}
+</style>    
+</head>
 <body>
-<pre>
-😌 Working.
-</pre>
+<center>
+<h1>Reload for a new cat!</h1>
+<img src="https://cataas.com/cat" class="cat">
+</center>
 </body>
 </html>
