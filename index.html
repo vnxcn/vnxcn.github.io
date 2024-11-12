@@ -14,6 +14,10 @@
   from {transform:translate(-50px,15px)}
   to {transform:translate(50px,-15px)}
 }
+@keyframes kitty_stretch {
+  from {transform:scale(1,1)}
+  to {transform:scale(1.3,1.05)}
+}
 body {background-color:black;color:white;font-family:Arial,sans-serif;overflow:hidden}
 a {position:fixed;right:0%;top:0%;color:gold;text-decoration:none}
 #cat {max-width:600px;max-height:500px}
@@ -22,6 +26,7 @@ a {position:fixed;right:0%;top:0%;color:gold;text-decoration:none}
 .cat-scale {animation: 0.2s infinite alternate kitty_scale}
 .cat-rotate {animation: 0.2s infinite alternate kitty_rotate}
 .cat-bounce {animation: 0.2s infinite alternate kitty_bounce}
+.cat-stretch {animation: 0.2s infinite alternate kitty_stretch}
 </style>
 <script>
 function animScale() {
@@ -33,6 +38,9 @@ function animRotate() {
 function animBounce() {
     document.getElementById("cat").className = "cat-bounce"
 }
+function animStretch() {
+    document.getElementById("cat").className = "cat-stretch"
+}
 </script>
 </head>
 <body>
@@ -42,6 +50,7 @@ function animBounce() {
     <button onclick="animScale()">Scale</button>
     <button onclick="animRotate()">Rotate</button>
     <button onclick="animBounce()">Bounce</button>
+    <button onclick="animStretch()">Stretch</button>
 </div>
 <a href="https://github.com/fs2f/fs2f.github.io">😼Source</a>
 <img id="cat" src="https://cataas.com/cat" class="cat-scale">
