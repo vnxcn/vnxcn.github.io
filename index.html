@@ -42,19 +42,23 @@ function animBounce() {
 function animStretch() {
     document.getElementById("cat").className = "cat-stretch"
 }
+function noAnim() {
+    document.getElementById("cat").className = ""
+}
 </script>
 </head>
 <body>
 <center>
 <h1>Reload for a new cat!</h1>
 <div class="button-holder">
+    <button onclick="noAnim()">Scale</button>
     <button onclick="animScale()">Scale</button>
     <button onclick="animRotate()">Rotate</button>
     <button onclick="animBounce()">Bounce</button>
     <button onclick="animStretch()">Stretch</button>
 </div>
 <a href="https://github.com/fs2f/fs2f.github.io">😼Source</a>
-<img id="cat" src="https://cataas.com/cat" class="cat-scale">
+<img id="cat" src="https://cataas.com/cat" class="">
 </center>
 </body>
 </html>
