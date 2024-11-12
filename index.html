@@ -1,12 +1,16 @@
 <html>
 <head>
 <style>
-@keyframes kitty {
+@keyframes kitty_scale {
   from {transform:scale(1,1)}
   to {transform:scale(0.8,0.8)}
 }
-body {background-color:black;color:white}
-.cat {animation: 0.2s infinite alternate kitty;max-width:700px;max-height:600px;overflow:hidden}
+@keyframes kitty_rotate {
+  from {transform:rotate(-10deg)}
+  to {transform:rotate(10deg)}
+}
+body {background-color:black;color:white;overflow:hidden}
+.cat {animation: 0.2s infinite alternate kitty_scale;max-width:700px;max-height:600px}
 </style>    
 </head>
 <body>
