@@ -15,10 +15,11 @@
   to {transform:translate(50px,-15px)}
 }
 body {background-color:black;color:white;overflow:hidden}
-.button-holder {display:flex;justify-content:center}
-.cat-scale {animation: 0.2s infinite alternate kitty_scale;max-width:700px;max-height:600px}
-.cat-rotate {animation: 0.2s infinite alternate kitty_rotate;max-width:700px;max-height:600px}
-.cat-bounce {animation: 0.2s infinite alternate kitty_bounce;max-width:700px;max-height:600px}
+#cat {max-width:600px;max-height:500px}
+.button-holder {display:flex;justify-content:center;margin:10px}
+.cat-scale {animation: 0.2s infinite alternate kitty_scale}
+.cat-rotate {animation: 0.2s infinite alternate kitty_rotate}
+.cat-bounce {animation: 0.2s infinite alternate kitty_bounce}
 </style>
 <script>
 function animScale() {
@@ -40,9 +41,7 @@ function animBounce() {
     <button onclick="animRotate()">Rotate</button>
     <button onclick="animBounce()">Bounce</button> 
 </div>
-<button onclick="animScale()">Scale</button>
-<button onclick="animRotate()">Rotate</button>
-<button onclick="animBounce()">Bounce</button>
+<br>
 <img id="cat" src="https://cataas.com/cat" class="cat-scale">
 </center>
 </body>
