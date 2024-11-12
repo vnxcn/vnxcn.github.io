@@ -33,9 +33,6 @@ function animRotate() {
 function animBounce() {
     document.getElementById("cat").className = "cat-bounce"
 }
-function reloadCats() {
-    document.getElementById("cat").src = "https://cataas.com/cat"
-}
 </script>
 </head>
 <body>
@@ -45,7 +42,6 @@ function reloadCats() {
     <button onclick="animScale()">Scale</button>
     <button onclick="animRotate()">Rotate</button>
     <button onclick="animBounce()">Bounce</button>
-    <button onclick="reloadCats()">Refresh</button>
 </div>
 <a href="https://github.com/fs2f/fs2f.github.io">😼Source</a>
 <img id="cat" src="https://cataas.com/cat" class="cat-scale">
