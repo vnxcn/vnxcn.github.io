@@ -24,6 +24,7 @@ a {position:fixed;right:0%;top:0%;color:#e7aa49;text-decoration:none}
 .button-holder {display:flex;justify-content:center;margin-bottom:10px}
 .button-holder button {margin:10px;border:0;padding:5px;background-color:#111;color:white;font-family:Arial,sans-serif;}
 .button-holder button:hover {background-color:#333}
+.stop-button {background-color:#ea4f4f;color:#111}
 .cat-scale {animation: 0.2s infinite alternate kitty_scale}
 .cat-rotate {animation: 0.2s infinite alternate kitty_rotate}
 .cat-bounce {animation: 0.2s infinite alternate kitty_bounce}
@@ -51,7 +52,7 @@ function noAnim() {
 <center>
 <h1>Reload for a new cat!</h1>
 <div class="button-holder">
-    <button onclick="noAnim()">Scale</button>
+    <button onclick="noAnim()" class="stop-button">● Stop</button>
     <button onclick="animScale()">Scale</button>
     <button onclick="animRotate()">Rotate</button>
     <button onclick="animBounce()">Bounce</button>
