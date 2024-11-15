@@ -1,5 +1,3 @@
-A half-formatted list of resources I compiled.
-====================================
 https://9front.org
 https://cat-v.org
 https://r-36.net
