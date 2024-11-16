@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+      body {background:#1e1f21;color:#d1d5de;font:16px monospace;width:500px;margin:2em auto;line-height:1.4}
+      hr {border:0;border-top:1px solid #cc906a}
+      a {color:#b06637}
+      pre {background-color:#333;padding:15px}
+    </style>
+    <title>The lemon bar - fs2f</title>
+  </head>
+  <body>
+    <h2>The lemon bar</h2>
+    <hr>
+    <p>I've been a devoted X11 user for as long as I can remember, and I usually have a bar sitting at the top of my screen.</p>
+    <p>For the 2 months that I've used spectrwm, that bar was provided by the window manager itself, but now that I'm on cwm, I need to find a bar myself.</p>
+    <p>And that bar is none other than Lemonbar by LemonBoy!</p>
+    <p>Lemonbar is a simple x11 bar that just draws a window somewhere on the screen and exits. Simple enough.</p>
+    <p>Now here's the interesting part: it doesn't have any sort of config. At all. No modules, no presets, nothing. Instead, you feed it text from stdin.
+        That can be done by echoing the text into the bar itself manually or through a shell script.</p>
+    <p>I've thrown together an example which you can see here:</p>
+    <pre>
+#!/usr/bin/env bash
+
+while true; do
+        echo "Hi! The date is $(date +'%I:%M %p')"
+        sleep 0.2
+done</pre>
+    <p>The following script can be piped into Lemonbar right now or further tweaked.</p>
+    <h3>Customization</h3>
+    <p>For now, I recommend getting the xft fonts fork of lemonbar from <a href="https://github.com/drscream/lemonbar-xft">here</a>.</p>
+    <p>All customization is done through flags given at bar startup. The full list can be found on the manpage, but here's a couple:</p>
+    <pre>
+-g: changes bar geometry
+-B: changes background color
+-F: changes foreground color
+-u,-U: changes underline width and color, respectively
+-F: changes default font</pre>
+    <p>Those alone should be enough to get you up and going. For more stuff you can do with it, check out Sacules' guide on it <a href="https://sacules.github.io/post/how-to-lemonbar">here</a>.</p>
+    <p>Happy tweaking!</p>
+    <hr>
+    <a href="/blob.html">Back to blobs</a>
+</body>
+</html>
