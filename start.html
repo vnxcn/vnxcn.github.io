@@ -1,32 +1,30 @@
 <html>
-<head>
+  <head>
     <style>
-        body {margin:6em 0 0 41em;background-color:#161616;color:white;font-family:monospace;font-size:large;}
-        a {color:#c98d5f;text-decoration:none;}
-        a:hover {color:#c98d5f;padding-bottom:1px;border-bottom:3px solid #c98d5f;}
-        code {background-color:#131313;padding:7px;margin-top:10px;display:block;white-space:pre-wrap;}
-        .main {display:grid;grid-template-rows:55px 55px;grid-template-columns:120px 120px;}
-        .main button {max-width:120px;padding:4px;margin:10px;font-family:Helvetica,monospace;background-color:#202020;color:white;border:0;}
-        .button-yt:hover {background-color:#fa3e34;color:black;}
-        .button-gh:hover {background-color:#34fa6c;color:black;}
-        .button-rd:hover {background-color:#fa7634;color:black;}
-        .button-pm:hover {background-color:#6c4df7;color:black;}
-        input#find {background-color:#222;border:0;height:35px;width:220px;margin-bottom:10px;margin-left:10px;outline:none;color:white;padding:15px 7px 15px 7px;font-size:large;}
-        input#find::placeholder {color:#686868}
-        input#find:focus {background-color:#282828}
+      body {font-family:Bahnschrift}
+      .holder {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+      input[type="text"] {background:#eee;width:200px;padding:8px;border-radius:6px;border:1px solid #ddd;outline:none;font:14px Bahnschrift;transition:0.2s ease}
+      input[type="text"]:hover {background-color:#ddd;transition:0.2s ease}
+      .holder h2 {text-align:center;font-family:"Bahnschrift"}
+      .bm {background:#eee;border:1px solid #ddd;border-radius:5px;padding:8px;height:60px;width:200px;margin-top:20px}
+      .bm h3 {margin-top:0;font:18px Bahnschrift}
+      .bm a {color:#2c8ede;text-decoration:none;transition:0.2s ease}
+      .bm a:hover {color:#216aa6;transition:0.2s ease}
     </style>
-    <link rel="icon" type="image/x-icon" href="/res/favicon.png">
-    <title>Startpage</title>
-</head>
-<body>
- <form action="https://ddg.gg/?q=" method="get" name="frmSearch">
-    <input type="text" id="find" name="q" autofocus="" placeholder="Search:" autocomplete="off">
-</form>
-  <div class="main">
-    <a href="https://youtube.com" style="all:inherit;"><button class="button-yt">YouTube</button></a>
-    <a href="https://github.com" style="all:inherit;"><button class="button-gh">GitHub</button></a>
-    <a href="https://reddit.com" style="all:inherit;"><button class="button-rd">Reddit</button></a>
-    <a href="https://mail.proton.me" style="all:inherit;"><button class="button-pm">Inbox</button></a>
-  </div>
-</body>
+    <title>the vnweb</title>
+  </head>
+  <body>
+    <div class="holder">
+      <h2>vnweb</h2>
+      <form action="https://ddg.gg/?q=" method="get" name="searchbar">
+        <input type="text" placeholder="search the web!"></input>
+        </form>
+      <div class="bm">
+        <h3>bookmarks</h3>
+        <a href="https://github.com">github</a>
+        <a href="https://reddit.com">reddit</a>
+        <a href="https://youtube.com">youtube</a>
+        <a href="https://mail.proton.me">email</a>
+      </div>
+  </body>
 </html>
