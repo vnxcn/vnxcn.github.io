@@ -9,6 +9,9 @@
       nav a {color:white;font-size:140%}
       nav a i {transition:all 0.2s}
       nav a i:hover {transform:scale(120%)}
+      .link-bar a {color:white;text-decoration:none;display:inline-block}
+      .link-bar a:after {content:''; display:block; width:0; height:1px; background:white; transition:width .2s ease-in}
+      .link-bar a:hover:after {width:100%}
     </style>
     <title>vnx's webpage</title>
     <script src="https://kit.fontawesome.com/46e94d083e.js" crossorigin="anonymous"></script>
@@ -17,6 +20,7 @@
     <div class="center">
       <img src="https://files.catbox.moe/bvvvpg.jpg">
       <h1>vnx</h1>
+      <nav class="link-bar"><a href="/">About</a> | <a href="/">Projects</a> | <a href="/">Others</a></nav>
       <p>Linux user, cat petter, amateur silly guy.</p>
       <nav class="icon-bar"><a href="https://github.com/vnxcn"><i class="fa-brands fa-github"></i></a></nav>
     </div>
