@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/manjari-2');
-body {max-width:600px;margin:1em auto;font-family:'Manjari',sans-serif;background:#111;color:#f1f1f1}
+body {max-width:600px;margin:5em auto;font-family:'Manjari',sans-serif;background:#111;color:#f1f1f1}
 h1 {font-size:120%}
 a {color:#D32F2F;text-decoration:underline solid #333}
 a:hover {text-decoration:underline solid #D32F2F}
