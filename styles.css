@@ -8,6 +8,12 @@ body {
     color:#eee;
     font-family:'JetBrains Mono'
 }
+#typing {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
 #typing:after {
     content:"|";
     animation:blink 0.8s infinite;
