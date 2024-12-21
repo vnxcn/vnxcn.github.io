@@ -1,0 +1,16 @@
+@import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
+@keyframes blink {
+  50% {opacity:0};
+  100% {opacity:1}
+}
+body {
+    background:#151515;
+    color:#eee;
+    font-family:'JetBrains Mono'
+}
+#typing:after {
+    content:"|";
+    animation:blink 0.8s infinite;
+    pointer-events:none;
+    user-select:none
+}
