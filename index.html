@@ -11,11 +11,18 @@
                 i++;
                 setTimeout(typeWriter, speed);
                 }
+                setTimeout(() => document.getElementById("row").className = "visible",7000)
             }
         </script>
         <link rel="stylesheet" href="/styles.css">
     </head>
     <body onload="javascript:typeWriter()">
         <p id="typing"></p>
+        <div id="row">
+            <a href="https://discord.gg/linux"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://last.fm/user/drxvxr"><i class="fa-brands fa-square-lastfm"></i></a>
+            <a href="https://github.com/vnxcn"><i class="fa-brands fa-github"></i></a>
+            <a href="https://t.me/n3pt5ne"><i class="fa-brands fa-telegram"></i></a>
+        </div>
     </body>
 </html>
